@@ -7,12 +7,12 @@ double func(const double x, const double y)
   int B = (int)y;
   int szam = B - A + 1;
   vector<double> vec(szam);
-  for (int i = 0; i <= szam; ++i)
+  for (int i = 0; i < szam; ++i)
   {
     vec[i] = A;
     A++;
   }
-  for (int i = 0; i <= szam; ++i)
+  for (int i = 0; i < szam; ++i)
   {
     int temp;
     temp = vec[i];
